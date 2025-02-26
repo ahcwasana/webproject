@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>TRAVEL TIME</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Beach Time</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+            
+        </ul>
+        <img src="image/menu btn.png" alt="" class="menu-btn">
+    </nav>
+     <header>
+        <div class="header-content">
+            <h2>EXPLORE THE COLORFUL WORLD</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+     </header>
+
+     <!-- == Events == -->
+      <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image/111.png" alt="">
+                <h4>Best Private Plan</h4>
+                <p>We offer both private tours & tailor-made itineraries.You tell us where you would like to go & we design 
+                    an itinerary customised around your intersts,needs & budgets.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+           
+                <div class="col">
+                    <img src="./image/122.png" alt="">
+                    <h4>Best Car Taxi</h4>
+                    <p>We provide private transfers from your accomodation.Hire us to make your transfers easy & dependable.
+                    </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+        </div>
+      </section>
+
+      <section class="explore">
+        <div class="explore-content">
+            <h1>PERFECT BEACH FINDER</h1>
+            <div class="line"></div>
+        <p>Find your perfect beach with personalized results based on your interests and preferences, or narrow in on a certain destination or dates for the best vacation value.</p>
+         <a href="#" class="ctn">Learn More</a>
+        </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>VACATIONS FOR EVERYONE</h1>
+                    <div class="line"></div>
+                    <p>At Beaches, just about anything you could ever imagine is included, from every land and water sport under the sun, to anytime gourmet dining at up to 20 specialty restaurants, activities and amenities for all ages. So leave your wallets (and your cares) behind, and get ready for the time of your lives!</p>
+                     <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        
+                        <img src="./image/r.jpg" alt="">
+                        <img src="./image/d.jpg" alt="">
+                        <img src="./image/e.avif" alt="">
+                        <img src="./image/g.avif" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+      
+        <section class="footer">
+            <p>123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email: steevesmith@gmail.com</p>
+             <p>Copyright 2020 Outdoor Adventure</p>
+        </section>
+                
+      
+
+     <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+     </script>
+
+</body>
+</html>
